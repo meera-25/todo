@@ -13,6 +13,7 @@ export default function Users() {
             .catch(function (error) {
                  console.log(error);
          })
-     }, []);
+     }, []);  
+
     return <div>Hello World</div>
 }
